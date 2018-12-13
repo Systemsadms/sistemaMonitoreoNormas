@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vendedor</title>
+    <link rel="stylesheet" href="assets/css/flexboxgrid.css">
+    <link rel="stylesheet" href="assets/css/mega.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <div class=" container center">
+            <img src="assets/img/logoptg.png" alt="">
+        </div>
+    </header>
+    <!-- MEMU -->
+    <div class="conf">
+        <ul class="nav justify-content-end">
+            <li class="nav-item dropdown mr-5">
+                <span><img src="assets/img/user.png" alt=""></span>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> ADMINISTRADOR </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="menu ">
+        <div class="menu-down">
+            <ul class="nav nav-tabs container">
+                <li class="nav-item">
+                    <a class="nav-link " href="#">USUARIOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="cliente.html">CLIENTES</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">VENDEDORES</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NORMAS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sub-menu">
+        <div class="mrg">
+            <ul class="nav container">
+                <li class="nav-item">
+                    <a class="nav-link" href="datospersonales.html">DATOS PERSONALES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="listamaestra.html">LISTA MAESTRA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reportes.html">REPORTES</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <section class="vendedor container">
+        <h1 class="user-text text-center">LISTA MAESTRA</h1>
+
+
+        <div class="row my-5">
+            <div class="col-md-6">
+                <h5>AXALTA C.A</h5>
+            </div>
+            <div class="col-md-6">
+                <div class="input-group ">
+                    <input type="text" class="form-control" placeholder="Buscar" />
+                    <span class="input-group-btn">
+                      <button class="btn btn-search" type="button">
+                          <img src="assets/img/magnifier.png" class="calen-img" alt="">
+                      </button>
+                  </span>
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+            <table class="table table-bordered">
+
+                <thead class="bck-thead txt-center">
+                    <tr>
+                        <th><img src="assets/img/check (1).png" class="wdt-form" alt=""></th>
+                        <th> ESTATUS </th>
+                        <th>SDO - ORG </th>
+                        <th>DOCUMENTO</th>
+                        <th> TITULO DE LA NORMA </th>
+                        <th>OPCIONES</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="7">
+                            <a href="crearusuario.html" class="btn btn-send btn-send-edit fwb btn-col1 col-md-12">AGREGAR UN NUEVO CLIENTE <i class="fas fa-plus plus-table"></i></a>
+                        </td>
+                    </tr>
+                    <tr class="txt-center">
+                        <td><input type="checkbox" aria-label="Checkbox for following text input"></td>
+                        <td>ACTUALIZADA</td>
+                        <td>ASME</td>
+                        <td>QER123</td>
+                        <td>TITULO DE LA NORMA</td>
+                        <td>
+                            <a href="" class="m-2"><img src="assets/img/magnifier.png" alt="" class="wdt-form"></a>
+                            <a href="" class="m-2" data-toggle="modal" data-target="#exampleModalCenter"><img src="assets/img/edit-draw-pencil.png" alt="" class="wdt-form"></a>
+                            <a href="" class="m-2"><img src="assets/img/trash-can.png" alt="" class="wdt-form"></a>
+                        </td>
+                    </tr>
+
+                    <tr class="txt-center">
+                        <td><input type="checkbox" aria-label="Checkbox for following text input"></td>
+                        <td>ACTUALIZADA</td>
+                        <td>ASME</td>
+                        <td>QER123</td>
+                        <td>TITULO DE LA NORMA</td>
+                        <td>
+                            <a href="" class="m-2"><img src="assets/img/magnifier.png" alt="" class="wdt-form"></a>
+                            <a href="" class="m-2" data-toggle="modal" data-target="#exampleModalCenter"><img src="assets/img/edit-draw-pencil.png" alt="" class="wdt-form"></a>
+                            <a href="" class="m-2"><img src="assets/img/trash-can.png" alt="" class="wdt-form"></a>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                        </div>
+                        <div class="modal-body">
+                            <section class="user-create container">
+                                <h1 class="user-text text-center">LISTA MAESTRA</h1>
+                                <div class="col-md-12 row mt-5">
+                                    <div class="col-md-3">
+                                        <div class="box-img">
+                                            <img src="assets/img/photo.png" alt="" class="box-img-cont">
+                                        </div>
+                                        <button class="btn btn-outline-secondary m-4" type="submit">editar</button>
+                                    </div>
+                                    <div class="col-md-9 row">
+                                        <div class="col-md-6">
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-addon1">DOCUMENTO: </span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-addon1">IDIOMA: </span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-addon1">REVISIÓN DEL CLIENTE: </span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-addon1">SDO - ORG:</span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-addon1">FORMATO: </span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-addon1">REVISIÓN ACTUAL: </span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-addon1">TITULO: </span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-addon1">ESTATUS: </span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-addon1">OBSERVACIÓN: </span>
+                                                </div>
+                                                <textarea type="text" class="form-control" placeholder="" aria-describedby="basic-addon1"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 d-flex justify-content-end">
+                                    <a href="cliente.html" class="col-boton">VOLVER A CLIENTES</a>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 txt-center ">
+                                        <button class="btn btn-send btn-col1 m-1" type="submit">GUARDAR</button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-12 p-0">
+                <div class="row">
+                    <div class="col-md-6 p-0">
+                        <button class="btn btn-trash p-1" type="submit">ELIMINAR SELECCIÓN |  <img src="assets/img/trash-can.png" class="wdt-form" alt=""></button>
+                    </div>
+                    <div class="col-md-6 p-0 d-flex justify-content-end">
+                        <nav aria-label="Page navigation ">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link clpg" href="#">Previa</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link clpg" href="#">Próxima</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-12 txt-center m-5">
+            <a href="cliente.html" class="col-boton">VOLVER A CLIENTES</a>
+        </div>
+
+        <div class="col-md-12 row">
+            <div class="col-md-12">
+                <h5>AGREGAR NORMAS A LA LISTA</h5>
+            </div>
+            <div class="col-md-6">
+                <div class="box-vend">
+                    <div class="menu-down p-4">
+                        <ul class="nav nav-tabs container">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Seleccionar Norma</a>
+                            </li>
+                        </ul>
+
+                        <div class="input-group py-3">
+                            <input type="text" class="form-control" placeholder="Buscar" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-search" type="button">
+                                    <img src="assets/img/magnifier.png" class="calen-img" alt="">
+                                </button>
+                            </span>
+                        </div>
+
+                        <div class="box-search">
+                            <nav>
+                                <ul class="nav flex-column m-3">
+                                    <li class="nav-item my-3"><input type="checkbox" class="check" id="checkAll"> Seleccionar todos</li>
+                                    <li class="nav-item"><input type="checkbox" class="check"> Norma disponible 1</li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                        <div class="col-md-12 d-flex justify-content-end">
+
+                            <button class="btn btn-col3 m-1" type="submit">CANCEL</button>
+                            <button class="btn btn-send btn-col1 m-1" type="submit">SALVAR</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class=" box-select ">
+                    <nav>
+                        <ul class="nav">
+                            <li class="box-select-client p-1 m-2">cliente 1 <span class="x mx-2"> X </span> </li>
+                            <li class="box-select-client p-1 m-2">cliente 2 <span class="x mx-2"> X </span> </li>
+                            <li class="box-select-client p-1 m-2">cliente 3 <span class="x mx-2"> X </span> </li>
+                            <li class="box-select-client p-1 m-2">cliente 4 <span class="x mx-2"> X </span> </li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="d-flex justify-content-center m-3">
+                    <button class="btn btn-send btn-col1 m-1" type="submit">GUARDAR CAMBIOS</button>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

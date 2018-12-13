@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vendedor</title>
+    <link rel="stylesheet" href="assets/css/flexboxgrid.css">
+    <link rel="stylesheet" href="assets/css/mega.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <div class=" container center">
+            <img src="assets/img/logoptg.png" alt="">
+        </div>
+    </header>
+    <!-- MEMU -->
+    <div class="conf">
+        <ul class="nav justify-content-end">
+            <li class="nav-item dropdown mr-5">
+                <span><img src="assets/img/user.png" alt=""></span>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> ADMINISTRADOR </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="menu ">
+        <div class="menu-down">
+            <ul class="nav nav-tabs container">
+                <li class="nav-item">
+                    <a class="nav-link " href="crearusuario.html">USUARIOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="cliente.html">CLIENTES</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">VENDEDORES</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NORMAS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sub-menu">
+        <div class="mrg">
+            <ul class="nav container">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DATOS PERSONALES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LISTA MAESTRA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">REPORTES</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <section class="vendedor container">
+        <h1 class="user-text text-center">CLIENTES</h1>
+
+
+        <div class="row my-5 d-flex justify-content-end">
+
+
+            <div class="input-group " style="width:450px">
+                <input type="text" class="form-control" placeholder="Buscar" />
+                <span class="input-group-btn">
+                      <button class="btn btn-search" type="button">
+                          <img src="assets/img/magnifier.png" class="calen-img" alt="">
+                      </button>
+                  </span>
+            </div>
+
+
+        </div>
+
+        <div>
+            <table class="table table-bordered">
+
+                <thead class="bck-thead txt-center">
+                    <tr>
+                        <th><img src="assets/img/check (1).png" class="wdt-form" alt=""></th>
+                        <th> ID </th>
+                        <th>USUARIO </th>
+                        <th>NOMBRE</th>
+                        <th>CORREO ELECTRÓNICO </th>
+                        <th>PAIS</th>
+                        <th>OPCIONES</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="7">
+                            <a href="crearusuario.html" class="btn btn-send btn-send-edit fwb btn-col1 col-md-12">AGREGAR UN NUEVO CLIENTE <i class="fas fa-plus plus-table"></i></a>
+                        </td>
+                    </tr>
+                    <tr class="txt-center">
+                        <td><input type="checkbox" aria-label="Checkbox for following text input"></td>
+                        <td>001</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>Mark@correo.com</td>
+                        <td>Brazil</td>
+                        <td>
+                            <a href="" class="m-2"><img src="assets/img/magnifier.png" alt="" class="wdt-form"></a>
+                            <a href="" class="m-2" data-toggle="modal" data-target="#exampleModalCenter"><img src="assets/img/edit-draw-pencil.png" alt="" class="wdt-form"></a>
+
+                        </td>
+                    </tr>
+
+                    <tr class="txt-center">
+                        <td><input type="checkbox" aria-label="Checkbox for following text input"></td>
+                        <td>001</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>Mark@correo.com</td>
+                        <td>Brazil</td>
+                        <td>
+                            <a href="" class="m-2"><img src="assets/img/magnifier.png" alt="" class="wdt-form"></a>
+                            <a href="" class="m-2" data-toggle="modal" data-target="#exampleModalCenter"><img src="assets/img/edit-draw-pencil.png" alt="" class="wdt-form"></a>
+
+                        </td>
+                    </tr>
+
+                    <tr class="txt-center">
+                        <td><input type="checkbox" aria-label="Checkbox for following text input"></td>
+                        <td>001</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>Mark@correo.com</td>
+                        <td>Brazil</td>
+                        <td>
+                            <a href="" class="m-2"><img src="assets/img/magnifier.png" alt="" class="wdt-form"></a>
+                            <a href="" class="m-2" data-toggle="modal" data-target="#exampleModalCenter"><img src="assets/img/edit-draw-pencil.png" alt="" class="wdt-form"></a>
+
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                        </div>
+                        <div class="modal-body">
+                            <section class="user-create container">
+                                <h1 class="user-text text-center">EDITAR CLIENTE</h1>
+                                <div class="row my-5">
+                                    <h5>DATOS DEL CLIENTE</h5>
+                                </div>
+                                GET DATA
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-12 p-0">
+                <div class="row">
+
+                    <div class="col-md-12 p-0 d-flex justify-content-end">
+                        <nav aria-label="Page navigation ">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link clpg" href="#">Previa</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link clpg" href="#">Próxima</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+[22-Nov-2018 10:35:22 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/ptglati1/public_html/monitoreo/modelo/connect.php:13)' in /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/reporte.php(89): FPDF->Output()
+#3 {main}
+  thrown in /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php on line 271
+[22-Nov-2018 10:57:38 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/ptglati1/public_html/monitoreo/modelo/connect.php:13)' in /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/reporte.php(89): FPDF->Output()
+#3 {main}
+  thrown in /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php on line 271
+[22-Nov-2018 11:03:38 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/ptglati1/public_html/monitoreo/modelo/connect.php:13)' in /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/reporte.php(89): FPDF->Output()
+#3 {main}
+  thrown in /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php on line 271
+[22-Nov-2018 11:03:41 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/ptglati1/public_html/monitoreo/modelo/connect.php:13)' in /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/reporte.php(89): FPDF->Output()
+#3 {main}
+  thrown in /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php on line 271
+[22-Nov-2018 11:06:09 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/ptglati1/public_html/monitoreo/modelo/connect.php:13)' in /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/reporte.php(89): FPDF->Output()
+#3 {main}
+  thrown in /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php on line 271
+[22-Nov-2018 11:13:13 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/ptglati1/public_html/monitoreo/modelo/connect.php:13)' in /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/reporte.php(89): FPDF->Output()
+#3 {main}
+  thrown in /home/ptglati1/public_html/monitoreo/administracion/reportesmensuales/fpdf/fpdf.php on line 271
